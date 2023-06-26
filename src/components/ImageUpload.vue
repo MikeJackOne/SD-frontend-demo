@@ -47,7 +47,7 @@ export default {
     },
     async postData() {
       try {
-        const response = await axios.post('http://localhost:6006/transform_image', {
+        const response = await axios.post('http://region-9.seetacloud.com:32569/transform_image', {
           // Request body data
           // Add any necessary data or parameters for the POST request
           image_base64:this.base64img,
